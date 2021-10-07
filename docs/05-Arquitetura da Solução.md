@@ -1,6 +1,6 @@
 # Arquitetura da Solução
 
-A solução será composta pela arquitetura backend para frontend. O backend será composto pela linguagem #### com framework com banco de dados ####. O frontend utilizará da linguagem #### com framework #####.
+A solução será composta pela arquitetura backend para frontend. O backend será composto pelo framework NodeJS e banco de dados MongoBD. O frontend utilizará da linguagem JavaScript com framework NodeJS
 
 ## Diagrama de componentes
 
@@ -16,7 +16,7 @@ Os componentes que fazem parte da solução são apresentados na Figura abaixo.
 
 A solução implementada conta com os seguintes módulos:
   - **Páginas Web** - Página responsiva em React.
-   - **Banco de dados** - armazenamento mantido banco de dados #####
+   - **Banco de dados** - armazenamento mantido banco de dados MongoBD
        
  - **API** - Disponibilização de dados conforme as regras do produto.
  - **Hospedagem** - Heroku
