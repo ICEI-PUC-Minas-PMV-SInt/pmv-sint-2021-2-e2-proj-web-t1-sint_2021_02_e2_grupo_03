@@ -15,10 +15,10 @@ Os componentes que fazem parte da solução são apresentados na Figura abaixo.
 <center>Figura XX - Arquitetura da Solução</center>
 
 A solução implementada conta com os seguintes módulos:
-  - **Páginas Web** - Página responsiva em React.
+  - **Páginas Web** - Página responsiva em React
    - **Banco de dados** - armazenamento mantido banco de dados MongoBD
        
- - **API** - Disponibilização de dados conforme as regras do produto.
+ - **API** - Disponibilização de dados conforme as regras do produto
  - **Hospedagem** - Heroku
 
 
@@ -53,18 +53,14 @@ para a Tela 2.
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+NodeJS: Permite criação de aplicações Javascript para executar uma aplicação localmente sem a necessidade de um navegador.
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+React: Uma biblioteca Javascript para criação de interfaces. Facilitando a comunicação entre diferentes partes de uma página. Realziando seu funcionamento através da componetização.
+
+MongoBD: Banco de dados orientado a documentos não relacionais.
 
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+O frontend e backend serão hospeados no Heroku. O banco de dados Mongo estará disponível no MongoBD Atlas.
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
