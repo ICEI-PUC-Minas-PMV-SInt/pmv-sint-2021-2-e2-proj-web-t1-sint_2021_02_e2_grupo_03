@@ -48,8 +48,11 @@ São realizadas reuniões periódicas para organizar papeis e acompanhar o andam
 As ferramentas empregadas no projeto são:
 
 **Editores de Código:** Visual Studio Code/ Intellij IDEA.
+
 **Ferramentas de Comunicação:** Whatsapp, Microsoft Teams
+
 **Ferramentas de desenho de tela:** Figma
+
 **Ferramenta de Versionamento**: Github
 
 O editor de código foi escolhido por ser versátil e de fácil utilização. As ferramentas de comunicação também são simples e auxiliam na organização.
