@@ -53,7 +53,7 @@ As ferramentas empregadas no projeto são:
 
 **Ferramentas de desenho de tela:** Figma
 
-**Ferramenta de Versionamento**: Github
+**Ferramenta de Versionamento e Hospedagem**: Git/Github
 
 O editor de código foi escolhido por ser versátil e de fácil utilização. As ferramentas de comunicação também são simples e auxiliam na organização.
 Por fim, para criar diagramas utilizamos o Figma por melhor captar as
