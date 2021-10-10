@@ -50,13 +50,9 @@ As ferramentas empregadas no projeto são:
 **Editores de Código:** Visual Studio Code/ Intellij IDEA.
 **Ferramentas de Comunicação:** Whatsapp, Microsoft Teams
 **Ferramentas de desenho de tela:** Figma
+**Ferramenta de Versionamento**: Github
 
 O editor de código foi escolhido por ser versátil e de fácil utilização. As ferramentas de comunicação também são simples e auxiliam na organização.
 Por fim, para criar diagramas utilizamos o Figma por melhor captar as
 necessidades da nossa solução.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
