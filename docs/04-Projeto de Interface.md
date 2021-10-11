@@ -13,8 +13,8 @@ Por ser um aplicativo que tem como intuito a gerência de um estacionamento foi 
 
 
 ## WireFrames
+![exemplo de tela de login Frame_1](https://user-images.githubusercontent.com/80729261/136843782-f8754c51-7cc6-4827-819b-7640bb6506ac.png)
 
-![Parking-admin](https://user-images.githubusercontent.com/80729261/136843077-a7422b4b-f4a9-437a-a01a-09050c9f89a9.png)
 
 
 Tela de login que terá opções de preenchimento de usuário e senha por parte do usuário.
