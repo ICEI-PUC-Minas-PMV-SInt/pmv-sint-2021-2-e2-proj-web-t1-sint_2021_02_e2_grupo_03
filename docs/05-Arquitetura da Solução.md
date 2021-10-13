@@ -26,7 +26,7 @@ A imagem a seguir ilustra a o fluxo do usuário em nossa solução. Logo após a
 O usuário será redirecionado pelas diferentes opções do menu de acordo com suas interações. Por ser um software de gestão todas as telas cadastrais possuem design focado na experiência do usuário.
 
 
-![Exemplo de UserFlow](img/userflow.jpg)
+![Exemplo de UserFlow](/img/WireFrame%20Completo.png)
 
 
 ## Tecnologias Utilizadas
