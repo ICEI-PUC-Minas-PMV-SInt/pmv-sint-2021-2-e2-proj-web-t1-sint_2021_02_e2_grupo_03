@@ -1,0 +1,43 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../docs/img/background_login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    font-size: 30px;
+    margin-right: 150px;
+    border-left: yellow solid;
+    display: block;
+    padding: 10px;
+}
+
+.headerdiv {
+    padding-top: 10px;
+}
+
+.container {
+    width: 300px;
+    height: 450px;
+    text-align: center;
+    margin-top: 200px;
+    background: #3A3939F2;
+    color: white;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    margin-top: 40px;
+    background: transparent;
+}
+
+.btn-class {
+    color: black;
+    background-color: yellow;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 50px;
+}
