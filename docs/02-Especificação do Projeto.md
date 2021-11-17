@@ -141,6 +141,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-007| Registrar saída de vínculos                                     | ALTA       |
 |RF-008| Gerar relatório estático do estacionamento                      | MÉDIA      |
 |RF-009| Gerar relatório de faturamento                                  | MÉDIA      |
+|RF-010| Controle de usuário                                             | MÉDIA      |
+
 
 ### Requisitos não Funcionais
 

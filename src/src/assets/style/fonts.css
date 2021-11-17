@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'Strait', sans-serif;
+  font-weight: normal;
+  src: local('Strait'), url('../fonts/Strait-Regular.ttf') format('truetype');
+}
