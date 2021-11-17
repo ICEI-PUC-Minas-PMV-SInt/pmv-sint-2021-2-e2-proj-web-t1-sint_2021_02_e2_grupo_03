@@ -62,7 +62,7 @@ const EntradaSaidaVeiculos = () => (
                   label='Veiculo:'
                   name='veiculo'
                   type='text'
-                  placeholder='veiculo'
+                  placeholder='Veículo'
                 ></TextInput>
               </BoxInputs>
               <BoxInputs display='row'>
