@@ -2,7 +2,9 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
 
-Planejamento de realização de testes com usuários definindo as operações que os usuários devem realizar.
+Tendo em vista a correta utilização do software as métricas de teste de usabilidade estão definidas como descrito abaixo:
 
-> **Links Úteis**:
-> - [Ferramentas deTestes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+1. O usuário deverá efetuar o login no sistema;
+2. Navegar pelo menu para cadastro da entrada do veículo;
+3. Preencher os campos obrigatórios;
+4. Visualizar se a entrada está sendo apresentada na tela de mapa de vagas. 
