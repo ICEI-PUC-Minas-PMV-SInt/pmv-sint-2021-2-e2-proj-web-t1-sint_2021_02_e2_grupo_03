@@ -1,31 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Navbar from "./components/navbar/Navbar";
+import {BrowserRouter as Router, Routes , Route} from 'react-router-dom';
+import PainelControle from './pages/PainelControle/PainelControle'
+import CadastroPeriodo from './pages/CadastroPeriodo/CadastroPeriodo'
+import CadastroUsuario from './pages/CadastroUsuario/CadastroUsuario'
+import Reservas from "./pages/Reservas/Reservas";
+import ValorHora from "./pages/ValorHora/ValorHora"
 
 function App() {
-    return ( <
-        div className = "App" >
-        <
-        header className = "App-header" >
-        <
-        div >
-        <
-        img src = { logo }
-        className = "App-logo"
-        alt = "logo" / >
-        <
-        p >
-        Edit < code > src / App.js < /code> and save to reload. <
-        /p> <
-        a className = "App-link"
-        href = "https://reactjs.org"
-        target = "_blank"
-        rel = "noopener noreferrer" >
-        Learn React <
-        /a> <
-        /header> <
-        /div>
-    );
+  return (
+   <div></div>
+  );
 }
 
 export default App;
