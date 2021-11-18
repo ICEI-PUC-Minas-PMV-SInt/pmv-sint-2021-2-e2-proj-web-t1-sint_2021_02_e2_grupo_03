@@ -1,15 +1,21 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+1.0 Mapa de Vagas
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+Mapa de vagas criando com o objetivo de apresentar o status atual do estacionamento para gerenciamento das vagas. Para isto é utilizada uma página em React para renderizar o mapa do estabelecimento. O mapa resgata as informações gravar no LocalStorage ao dar entrada em uma vaga.
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
+2.0 Painel de Controle
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+Esta tela permite incluir uma nova entrada e exibe uma lista com alguns detalhes das entradas efetuadas no estacionamento. Clicando em "Nova entrada" é apresentada tela com as informações necessárias para dar entrada em uma vaga. Para isto é utilizada uma página em React para renderizar a tela. O painel de controle resgata as informações gravadas no LocalStorage para apresentar a lista de últimas entradas.
+
+3.0 Tela de cadastro de períodos
+
+Esta tela tem como objetivo criar valores específicos para cada período do dia. Apresentando a lista de períodos já cadastrados.Para isto é utilizada uma página em React para renderizar a tela. Esta tela resgata as informações do LocalStorage para carregar a lista de períodos cadastrados.
+
+4.0 Tela de cadastro de preço
+
+Esta tela tem como objetivo permitir cadastrar os valores do estacionamento por hora utilizada. Para isto é utilizada uma página em React para renderizar a tela. Esta tela resgata as informações do LocalStorage para carregar a lista de preços cadastrados.
+
+5.0 Tela de cadastro para reservas
+
+Esta tela permite que sejam criadas reservas para os clientes. Permitindo a busca através do número da reserva. Para isto é utilizada uma página em React para renderizar a tela. Esta tela resgata as informações do LocalStorage para carregar a lista de reservas.
