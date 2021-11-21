@@ -13,13 +13,7 @@ import styled from "styled-components";
   margin: 1px;
   `;
 
-let Vagas = 50
 
-
-const TotalVagas = () => [...Array(Vagas)].map( elemento => { 
-    return (<Vaga></Vaga>);
-  });
-
-export default TotalVagas
+export default Vaga
 
 
