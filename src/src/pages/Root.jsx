@@ -11,10 +11,10 @@ const PagesRoot = () => (
   <Router>
     <StoreProvider>
       <Switch>
-        <Route path='/login' component={Login} />
-        <Route path='/entradaveiculos' component={EntradaSaidaVeiculos} />
-        <Route path='/mapavagas' component={MapaVagas} />
-        <RoutesPrivate path='/' component={Home} />
+        <Route path="/login" component={Login} />
+        <Route path="/entradaveiculos" component={EntradaSaidaVeiculos} />
+        <Route path="/mapavagas" component={MapaVagas} />
+        <RoutesPrivate path="/" component={Home} />
       </Switch>
     </StoreProvider>
   </Router>

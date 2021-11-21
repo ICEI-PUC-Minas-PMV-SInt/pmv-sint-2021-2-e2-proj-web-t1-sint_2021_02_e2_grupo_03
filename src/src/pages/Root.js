@@ -8,9 +8,9 @@ import CadastroUsuario from "./CadastroUsuario/CadastroUsuario";
 import Reservas from "./Reservas/Reservas";
 import ValorHora from "./ValorHora/ValorHora";
 import Login from "./Login/Login";
-import MapaVagas from "./MapaVagas/MapaVagas";
 import Navbar from "../components/navbar/Navbar";
 import '../App.css'
+import MapaVagas from "./MapaVagas/MapaVagas";
 
 const PagesRoot = () => (
   <Router>
@@ -23,7 +23,7 @@ const PagesRoot = () => (
         <Route exact path="/cadastro-usuario" element={<CadastroUsuario />}/>
         <Route exact path="/reservas" element={<Reservas />}/>
         <Route exact path="/valor-hora" element={<ValorHora />}/>
-        <Route exact path="/mapa-vagas" element={<MapaVagas />}/>
+        <Route exact path="/mapa-vagas" element={<MapaVagas/>}/>
         
       </Routes>
     </StoreProvider>

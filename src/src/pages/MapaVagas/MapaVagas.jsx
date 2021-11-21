@@ -1,12 +1,13 @@
 import Box from 'components/Box';
 import React from 'react';
 import P from 'components/P';
+import TotalVagas from 'components/Vaga/Vaga';
 
 const MapaVagas = () => (
   <React.Fragment>
-    <Box>
-      <P>Teste</P>
-    </Box>
+    <div className='mapa-vagas'>
+      <TotalVagas></TotalVagas>
+    </div>
   </React.Fragment>
 );
 
