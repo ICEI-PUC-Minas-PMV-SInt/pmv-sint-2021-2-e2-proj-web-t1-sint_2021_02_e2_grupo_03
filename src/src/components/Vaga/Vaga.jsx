@@ -2,10 +2,10 @@
 
 import React from "react";
 import styled from "styled-components";
+import { FaCar } from 'react-icons/fa';
 
 
-
- const Vaga =  styled.div`
+ const ContainerVaga =  styled.div`
   height: 80px;
   width: 40px;
   background-color: gray;
@@ -13,7 +13,11 @@ import styled from "styled-components";
   margin: 1px;
   `;
 
-
+const Vaga = ({ocupado,texto}) => (
+  <ContainerVaga> 
+   { ocupado ? <FaCar /> : <p>{texto}</p>}
+  </ContainerVaga>
+)
 export default Vaga
 
 
