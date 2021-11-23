@@ -6,13 +6,9 @@ const Box = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  background-image: linear-gradient(
-    180deg,
-    #eeff00 0%,
-    rgba(238, 255, 0, 0) 91.15%
-  );
+  background-image: linear-gradient(#EEFF00, #909090);
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   ${(props) =>
     props.display == 'row' &&
     css`

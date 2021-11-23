@@ -26,13 +26,13 @@ console.log([...arrayteste]);
 
 const MapaVagas = () => (
   <React.Fragment>
-    <div style= {{
+    <Box style= {{
       display:'grid',
-      height:'100%',
       gridTemplateColumns: 'repeat(10,40px)',
-      justifyContent:'center'
+      justifyContent:'center',
+      paddingTop:'100px'
     }} >
-    {[...arrayteste].map( (elemento,index) => (<Vaga key={index} texto={index} ocupado ={jsonTeste.find( (item) => item.vaga=== index)   }/>))} </div>
+    {[...arrayteste].map( (elemento,index) => (<Vaga key={index} texto={index} ocupado ={jsonTeste.find( (item) => item.vaga=== index)   }/>))} </Box>
   </React.Fragment>
 );
 

@@ -5,27 +5,23 @@ import * as AiIcons from "react-icons/ai";
 import { SidebarData} from './SidebarData'; 
 import './Navbar.css'
 import { IconContext} from 'react-icons'
+import carlogo from '../../assets/images/car-logo.svg'
+
+
 
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
 
   const showSidebar = () => setSidebar(!sidebar)
+  
 
   return (
     <>
     <IconContext.Provider value={{color: '#000'}}>
-      <div className="navbar">
-        <Link to="#" className="menu-bars">
-          <FaIcons.FaBars onClick={showSidebar} />
-        </Link>
-      </div>
-      <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
+      <nav className={ "nav-menu active"}>
+      
         <ul className="nave-menu-items" onClick={showSidebar}>
-            <li className="navbar-toggle">
-                <Link to="#" className="menu-bars">
-                 <AiIcons.AiOutlineClose />
-                </Link>
-            </li>
+        <img src={carlogo} alt='Imagem não encontrada'/>
             {SidebarData.map((item, index) => {
                 return (
                     <li key={index} className={item.cName}>

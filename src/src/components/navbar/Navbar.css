@@ -30,6 +30,7 @@
     left: 0;
     transition: 350ms;
     justify-self: flex-start;
+    background-color: rgba(0, 0, 0, 0.0);
 }
 
 .nav-text {
