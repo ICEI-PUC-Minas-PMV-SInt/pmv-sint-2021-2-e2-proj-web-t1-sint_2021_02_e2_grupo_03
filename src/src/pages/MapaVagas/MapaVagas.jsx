@@ -1,9 +1,7 @@
 /* eslint-disable no-undef */
 import Box from 'components/Box';
 import React from 'react';
-import P from 'components/P';
 import Vaga from 'components/Vaga/Vaga';
-import { FaCar } from 'react-icons/fa';
 
 const jsonTeste = [
   {
