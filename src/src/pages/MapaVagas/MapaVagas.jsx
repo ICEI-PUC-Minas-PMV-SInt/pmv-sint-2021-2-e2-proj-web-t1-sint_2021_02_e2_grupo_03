@@ -18,6 +18,9 @@ const jsonTeste = [
   },
   { vaga: 13 },
   { vaga: 3 },
+  { vaga: 25 },
+  { vaga: 15 },
+  { vaga: 2 },
 ];
 
 const numeroVagas = 50;
