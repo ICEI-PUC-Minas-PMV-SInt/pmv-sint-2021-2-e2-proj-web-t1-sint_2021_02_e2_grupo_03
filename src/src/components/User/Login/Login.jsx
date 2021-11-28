@@ -6,6 +6,7 @@ import UIButton from 'components/UI/Button/Button';
 import './Login.css';
 
 function initialState() {
+  
   return { user: '', password: '' };
 }
 

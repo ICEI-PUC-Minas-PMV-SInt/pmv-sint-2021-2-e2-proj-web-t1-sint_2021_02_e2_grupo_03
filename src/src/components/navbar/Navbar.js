@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { Link } from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
@@ -6,6 +6,7 @@ import { SidebarData} from './SidebarData';
 import './Navbar.css'
 import { IconContext} from 'react-icons'
 import carlogo from '../../assets/images/car-logo.svg'
+import StoreContext from 'components/Store/Context';
 
 
 
@@ -13,9 +14,12 @@ function Navbar() {
   const [sidebar, setSidebar] = useState(false);
 
   const showSidebar = () => setSidebar(!sidebar)
-  
 
+  const { token } = useContext(StoreContext);
+  
+  console.log(token);
   return (
+    token ?
     <>
     <IconContext.Provider value={{color: '#000'}}>
       <nav className={ "nav-menu active"}>
@@ -36,6 +40,8 @@ function Navbar() {
       </nav>
       </IconContext.Provider>
     </>
+    :
+    null
   );
 }
 

@@ -1,15 +1,9 @@
-import React from 'react'
-import Navbar from '../../components/navbar/Navbar'
+import React from 'react';
+import PainelControle from 'components/PainelControle/PainelControle';
+import Navbar from 'components/navbar/Navbar';
 
-function PainelControle() {
-    return (
-        <>
-        <Navbar />
-        </>,
-        <div className='painel-controle'>
-            <h1>Painel de Controle</h1>
-        </div>
-    )
-}
+const PagesPainelControle = () => (
+  <PainelControle />
+);
 
-export default PainelControle
+export default PagesPainelControle;
