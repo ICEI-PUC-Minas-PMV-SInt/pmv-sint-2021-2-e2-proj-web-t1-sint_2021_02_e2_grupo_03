@@ -13,23 +13,25 @@ import '../App.css';
 import MapaVagas from './MapaVagas/MapaVagas';
 import EntradaSaidaVeiculos from './EntradaSaidaVeiculos/EntradaSaidaVeiculos';
 
-
 const PagesRoot = () => (
   <Router>
     <StoreProvider>
-      <Navbar  />
+      <Navbar />
+      <Route exact path="/login" component={Login} />
       <Switch>
-        <Route exact path="/login" component={Login} />
         <Route exact path="/" component={PainelControle} />
         <Route exact path="/cadastro-periodo" component={CadastroPeriodo} />
         <Route exact path="/cadastro-usuario" component={CadastroUsuario} />
         <Route exact path="/reservas" component={Reservas} />
         <Route exact path="/valor-hora" component={ValorHora} />
         <Route exact path="/mapa-vagas" component={MapaVagas} />
-        <Route exact path="/entrada-veiculos" component={EntradaSaidaVeiculos } />
+        <Route
+          exact
+          path="/entrada-veiculos"
+          component={EntradaSaidaVeiculos}
+        />
       </Switch>
     </StoreProvider>
-
   </Router>
 );
 
