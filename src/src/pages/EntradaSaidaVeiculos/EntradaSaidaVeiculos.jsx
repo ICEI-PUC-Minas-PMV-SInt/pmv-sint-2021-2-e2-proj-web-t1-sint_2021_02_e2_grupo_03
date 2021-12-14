@@ -8,6 +8,7 @@ import TextInput from 'components/Input';
 const H1 = styled.h1`
   font-size: 48px;
   line-height: 53px;
+  padding-left: 300px;
 `;
 
 const BoxForm = styled(Box)`

@@ -19,7 +19,7 @@ const PagesRoot = () => (
       <Navbar />
       <Route exact path="/login" component={Login} />
       <Switch>
-        <Route exact path="/" component={PainelControle} />
+        <Route exact path="/" component={EntradaSaidaVeiculos} />
         <Route exact path="/cadastro-periodo" component={CadastroPeriodo} />
         <Route exact path="/cadastro-usuario" component={CadastroUsuario} />
         <Route exact path="/reservas" component={Reservas} />

@@ -7,106 +7,105 @@ import TextInput from 'components/Input';
 import Navbar from 'components/navbar/Navbar';
 
 const H1 = styled.h1`
-    font-size: 48px;
-    line-height: 53px;
+  font-size: 48px;
+  line-height: 53px;
+  padding-left: 300px;
 `;
 
 const BoxForm = styled(Box)`
-    width: 1044px;
-    height: 400px;
-    left: 21px;
-    top: 110px;
-    background: rgba(144, 144, 144, 0.7);
-    border-radius: 10px;
+  width: 1044px;
+  height: 400px;
+  left: 21px;
+  top: 110px;
+  background: rgba(144, 144, 144, 0.7);
+  border-radius: 10px;
 `;
 
 const BoxInputs = styled(BoxForm)`
-    width: 1044px;
-    left: 21px;
-    top: 110px;
-    justify-content: flex-start;
-    align-items: center;
-    background: transparent;
-    border-radius: 10px;
+  width: 1044px;
+  left: 21px;
+  top: 110px;
+  justify-content: flex-start;
+  align-items: center;
+  background: transparent;
+  border-radius: 10px;
 `;
 
 const CadastroPeriodo = () => (
-<React.Fragment>
+  <React.Fragment>
     <div>
-        <Navbar />
+      <Navbar />
     </div>
     <Box>
-        <H1>Cadastro de Período</H1>
-        <BoxForm
+      <H1>Cadastro de Período</H1>
+      <BoxForm
         style={{
-            marginLeft: '300px',
-            right: '250px',
+          marginLeft: '300px',
+          right: '250px',
         }}
-        >
+      >
         <Formik
-            initialValues={{
+          initialValues={{
             periodo: '',
             dataInicial: '',
             dataFinal: '',
             horaInicial: '',
             HoraFinal: '',
-            }}
-            onSubmit={(values) => {
+          }}
+          onSubmit={(values) => {
             console.log(JSON.stringify(values));
-            }}
+          }}
         >
-            <Form>
+          <Form>
             <BoxInputs>
-                <BoxInputs display="row">
+              <BoxInputs display="row">
                 <TextInput
-                    label="Período:"
-                    name="periodo"
-                    type="text"
-                    placeholder="Período vigente"
+                  label="Período:"
+                  name="periodo"
+                  type="text"
+                  placeholder="Período vigente"
                 ></TextInput>
-                </BoxInputs>
-                <BoxInputs display="row">
+              </BoxInputs>
+              <BoxInputs display="row">
                 <TextInput
-                    label="Data Inicial:"
-                    name="data inicial"
-                    type="date"
-                    placeholder="Data inicial do período"
+                  label="Data Inicial:"
+                  name="data inicial"
+                  type="date"
+                  placeholder="Data inicial do período"
                 ></TextInput>
-                </BoxInputs>
-                <BoxInputs display="row">
+              </BoxInputs>
+              <BoxInputs display="row">
                 <TextInput
-                    label="Data Final:"
-                    name="data final"
-                    type="date"
-                    placeholder="Data final do período "
+                  label="Data Final:"
+                  name="data final"
+                  type="date"
+                  placeholder="Data final do período "
                 ></TextInput>
-                </BoxInputs>
-                <BoxInputs display="row">
+              </BoxInputs>
+              <BoxInputs display="row">
                 <TextInput
-                    label="Hora Inicial:"
-                    name="hora inicial"
-                    type="time"
-                    placeholder="Hora inicial do período"
+                  label="Hora Inicial:"
+                  name="hora inicial"
+                  type="time"
+                  placeholder="Hora inicial do período"
                 ></TextInput>
-                </BoxInputs>
-                <BoxInputs display="row">
+              </BoxInputs>
+              <BoxInputs display="row">
                 <TextInput
-                    label="Hora Final:"
-                    name="hora final"
-                    type="time"
-                    placeholder="Hora final do período"
+                  label="Hora Final:"
+                  name="hora final"
+                  type="time"
+                  placeholder="Hora final do período"
                 ></TextInput>
-                </BoxInputs>
-                <BoxInputs display="row">
-                </BoxInputs>
+              </BoxInputs>
+              <BoxInputs display="row"></BoxInputs>
             </BoxInputs>
             <SalvarButton type="submit">Salvar</SalvarButton>
-            </Form>
+          </Form>
         </Formik>
-        </BoxForm>
+      </BoxForm>
     </Box>
-    </React.Fragment>
+  </React.Fragment>
 );
 
 export default CadastroPeriodo;
-
