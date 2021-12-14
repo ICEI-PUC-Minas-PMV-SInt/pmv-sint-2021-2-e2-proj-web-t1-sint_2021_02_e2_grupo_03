@@ -20,17 +20,13 @@ const PagesRoot = () => (
       <Navbar  />
       <Switch>
         <Route exact path="/login" component={Login} />
-        <RoutesPrivate exact path="/" component={PainelControle} />
-        <RoutesPrivate exact path="/cadastro-periodo" component={CadastroPeriodo} />
-        <RoutesPrivate exact path="/cadastro-usuario" component={CadastroUsuario} />
-        <RoutesPrivate exact path="/reservas" component={Reservas} />
-        <RoutesPrivate exact path="/valor-hora" component={ValorHora} />
-        <RoutesPrivate exact path="/mapa-vagas" component={MapaVagas} />
-        <Route
-          exact
-          path="/entrada-veiculos"
-          component={EntradaSaidaVeiculos }
-        />
+        <Route exact path="/" component={PainelControle} />
+        <Route exact path="/cadastro-periodo" component={CadastroPeriodo} />
+        <Route exact path="/cadastro-usuario" component={CadastroUsuario} />
+        <Route exact path="/reservas" component={Reservas} />
+        <Route exact path="/valor-hora" component={ValorHora} />
+        <Route exact path="/mapa-vagas" component={MapaVagas} />
+        <Route exact path="/entrada-veiculos" component={EntradaSaidaVeiculos } />
       </Switch>
     </StoreProvider>
 
