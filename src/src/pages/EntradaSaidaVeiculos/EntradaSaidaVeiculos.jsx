@@ -50,7 +50,9 @@ const EntradaSaidaVeiculos = () => (
             vaga: '',
           }}
           onSubmit={(values) => {
-            console.log(JSON.stringify(values));
+            let vagasArray = JSON.parse(localStorage.getItem('jsonVagas'));
+            vagasArray.push(values.vaga);
+            localStorage.setItem('jsonVagas', JSON.stringify(vagasArray));
           }}
         >
           <Form>
