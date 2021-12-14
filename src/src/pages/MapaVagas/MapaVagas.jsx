@@ -2,26 +2,10 @@
 import Box from 'components/Box';
 import React from 'react';
 import Vaga from 'components/Vaga/Vaga';
+import { useState, useEffect } from 'react';
 
-const jsonTeste = [
-  {
-    vaga: 4,
-  },
-  {
-    vaga: 1,
-  },
-  {
-    vaga: 6,
-  },
-  {
-    vaga: 12,
-  },
-  { vaga: 13 },
-  { vaga: 3 },
-  { vaga: 25 },
-  { vaga: 15 },
-  { vaga: 2 },
-];
+//const jsonTeste = ['1', '2', '4'];
+let jsonTeste = JSON.parse(localStorage.getItem('jsonVagas'));
 
 const numeroVagas = 50;
 
@@ -39,7 +23,7 @@ const MapaVagas = () => (
         <Vaga
           key={index}
           texto={index + 1}
-          ocupado={jsonTeste.find((item) => item.vaga === index + 1)}
+          ocupado={jsonTeste.find((item) => item == index + 1)}
         />
       ))}
     </Box>
